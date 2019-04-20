@@ -18,6 +18,9 @@ const Logo = styled(Link)`
   }
 `;
 
-const HeaderLogo = () => <Logo to='/'>asperitas</Logo>;
+const HeaderLogo = () => 
+    <Logo to='/'>
+      {` Just the Headers`}
+    </Logo>
 
 export default HeaderLogo;
